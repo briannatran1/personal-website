@@ -16,7 +16,7 @@ body p {
   align-self: center;
 }
 
-.about-me, .learning, .contact {
+.about-me, .learning, .contact, .landing {
   display: flex;
   flex-direction: column;
   align-items: center;
