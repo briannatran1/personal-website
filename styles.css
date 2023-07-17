@@ -26,3 +26,11 @@ body p {
 img {
   height: 300px;
 }
+
+#jumbotron {
+  background-color: #FFF0F5;
+}
+
+.contact-info {
+  text-align: center;
+}
