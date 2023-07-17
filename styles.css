@@ -10,7 +10,7 @@ body p {
   width: 750px;
 }
 
-.about-me, .resume, .contact, .landing {
+.about-me, .resume, .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,14 +34,6 @@ img {
   text-align: center;
 }
 
-.landing {
-  margin-top: 0;
-}
-
-#jumbotron:target{
-  display: none;
-}
-
 .about-me, .resume, .contact {
   display: none;
 }
@@ -50,7 +42,20 @@ img {
   display: flex;
 }
 
-.lead {
+.navbar-brand:target + .jumbotron, .jumbotron:target {
+  display: flex;
+}
+
+.lead, .info {
   margin: 0 auto;
 }
 
+.jumbotron p {
+  font-size: 40px;
+  font-weight: 250;
+}
+
+.jumbotron .info {
+  font-size: 30px;
+  font-weight: 200;
+}
