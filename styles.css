@@ -21,16 +21,15 @@ body p {
 
 img {
   height: 300px;
-  margin-bottom: -100px;
+  margin-bottom: -60px;
 }
 
 #jumbotron {
   background-color: #FFF0F5;
   margin-bottom: 0;
-  text-align: center;
 }
 
-.contact-info {
+.contact-info, #jumbotron {
   text-align: center;
 }
 
@@ -39,7 +38,7 @@ img {
 }
 
 .about-me, .resume, .contact {
-    display: none;
+  display: none;
 }
 
 .about-me:target, .resume:target, .contact:target {
@@ -49,3 +48,4 @@ img {
 .lead {
   margin: 0 auto;
 }
+
