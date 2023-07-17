@@ -21,12 +21,13 @@ body p {
 
 img {
   height: 300px;
-  margin-bottom: -60px;
+  margin-bottom: 20px;
 }
 
 #jumbotron {
   background-color: #FFF0F5;
   margin-bottom: 0;
+  height: 100%;
 }
 
 .contact-info, #jumbotron {
@@ -35,6 +36,10 @@ img {
 
 .landing {
   margin-top: 0;
+}
+
+#jumbotron:target{
+  display: none;
 }
 
 .about-me, .resume, .contact {
