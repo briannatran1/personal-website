@@ -6,10 +6,6 @@
   background-color: #FFB6C1;
 }
 
-.about-me h2 {
-  margin-bottom: 20px;
-}
-
 body p {
   width: 750px;
 }
@@ -25,11 +21,13 @@ body p {
 
 img {
   height: 300px;
+  margin-bottom: -100px;
 }
 
 #jumbotron {
   background-color: #FFF0F5;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .contact-info {
@@ -46,4 +44,8 @@ img {
 
 .about-me:target, .resume:target, .contact:target {
   display: flex;
+}
+
+.lead {
+  margin: 0 auto;
 }
