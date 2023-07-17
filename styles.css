@@ -29,8 +29,21 @@ img {
 
 #jumbotron {
   background-color: #FFF0F5;
+  margin-bottom: 0;
 }
 
 .contact-info {
   text-align: center;
+}
+
+.landing {
+  margin-top: 0;
+}
+
+.about-me, .resume, .contact {
+    display: none;
+}
+
+.about-me:target, .resume:target, .contact:target {
+  display: flex;
 }
