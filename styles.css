@@ -63,3 +63,8 @@ img {
 #resume-heading {
   margin-bottom: 40px;
 }
+
+#work, #tech, #edu {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
