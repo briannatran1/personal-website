@@ -11,7 +11,7 @@ body p {
 }
 
 .about-me, .resume, .contact {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -34,16 +34,12 @@ img {
   text-align: center;
 }
 
-.about-me, .resume, .contact {
-  display: none;
-}
-
 .about-me:target, .resume:target, .contact:target {
   display: flex;
 }
 
-.navbar-brand:target + .jumbotron, .jumbotron:target {
-  display: flex;
+.navbar-brand:target ~ #jumbotron, .about-me:target ~ #jumbotron, .resume:target ~ #jumbotron, .contact:target ~ #jumbotron, .jumbotron:target {
+  display: none;
 }
 
 .lead, .info {
@@ -58,4 +54,12 @@ img {
 .jumbotron .info {
   font-size: 30px;
   font-weight: 200;
+}
+
+.btn {
+  margin: 20px 40px;
+}
+
+#resume-heading {
+  margin-bottom: 40px;
 }
