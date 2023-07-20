@@ -26,7 +26,7 @@ img {
 
 #jumbotron {
   background-color: #FFF0F5;
-  margin-bottom: 0;
+  margin-bottom: -75px;
   height: 100%;
 }
 
@@ -60,11 +60,31 @@ img {
   margin: 20px 40px;
 }
 
-#resume-heading {
-  margin-bottom: 40px;
+#resume-heading, #about-heading, #contact-heading {
+  margin-bottom: 30px;
 }
 
 #work, #tech, #edu {
   margin-top: 30px;
   margin-bottom: 15px;
+}
+
+article {
+  width: 600px;
+  margin: 0 auto;
+}
+
+html, body {
+  background-color: #FFF0F5;
+  height: 100%;
+}
+
+.navbar-nav .nav-item:hover .nav-link,
+.navbar-nav .nav-item:active .nav-link,
+.navbar-nav .nav-item:focus .nav-link {
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
 }
