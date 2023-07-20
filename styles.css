@@ -88,3 +88,25 @@ html, body {
 button {
   cursor: pointer;
 }
+
+.contact-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icons a {
+  display: inline-block;
+  margin: 10px;
+}
+
+.contact-icons img {
+  width: 90px;
+  height: 90px;
+  border-radius: 20%;
+  transition: transform 0.2s;
+}
+
+.contact-icons img:hover {
+  transform: scale(1.1);
+}
