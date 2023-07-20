@@ -42,7 +42,7 @@ img {
   display: none;
 }
 
-.lead, .info {
+.lead, .info, article {
   margin: 0 auto;
 }
 
@@ -71,7 +71,6 @@ img {
 
 article {
   width: 600px;
-  margin: 0 auto;
 }
 
 html, body {
