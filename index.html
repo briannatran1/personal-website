@@ -9,14 +9,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
     <a class="navbar-brand" href="#brand">Brianna Tran</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="content">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
@@ -33,11 +33,14 @@
     <p class="lead">a software engineer.</p>
     <hr class="my-4">
     <p class="info">I solve problems and build solutions with code.</p>
+    <a href="#about">
+      <button type="button" class="btn btn-outline-primary btn-lg">Learn more!</button>
+    </a>
   </div>
   <div>
     <article class="about-me" id="about">
       <img src="images/grad-pic.jpeg">
-      <h3>About Me</h3>
+      <h3 id="about-heading">About Me</h3>
       <p>I graduated from UCI in 2021 with a Bachelor's degree in Biological Sciences. However, my
         passion for software engineering led me to switch careers. I'm excited to embark on a new journey and expand my skills in
         coding and programming. In August, I will be attending the Rithm School bootcamp to further enhance my knowledge and gain
@@ -63,6 +66,7 @@
         <p><b>Mission College</b> | Santa Clara, CA <br>
         <i>Biological Sciences</i></p>
       <h5 id="work">Work Experience</h5>
+        <div>
           <p><b>DeepScribe</b> - Medical Data Analyst & Staff Assistant | San Francisco, CA <br></p>
             <ul>
               <li>Correlated conversational transcriptions with medical note entries to increase productivity</li>
@@ -70,18 +74,23 @@
               <li>Automated primary use functions to increase productivity with Javascript</li>
               <li>Pulled, analyzed, and reported data on a weekly basis</li>
             </ul>
+        </div>
+        <div>
           <p><b>Nike</b> - Sales Associate | Milpitas, CA <br></p>
             <ul>
               <li>Managed an average of 60 customers per hour in finding & selecting items, and providing recommendations. </li>
               <li>Organized & improved day-to-day operations to increase team productivity</li>
               <li>Planned & integrated marketing strategies to increase customer retention and loyalty</li>
             </ul>
+        </div>
+        <div>
           <p><b>Action Urgent Care</b> - Medical Assistant | San Jose, CA <br></p>
             <ul>
               <li>Performed various services that address patient care such as EKG, vision exams, peak flow, spirometry</li>
               <li>Operated & measured vital signs like BP, temperature, O2, orthostatic vital signs, pulse & respiration</li>
               <li>Provided patient education and immunization of vaccines to 10+ patients </li>
             </ul>
+        </div>
       <h5 id="tech">Technical Skills & Interests</h5>
         <p><b>Office Languages:</b> Excel, Microsoft Word, PowerPoint, Google Suite</p>
         <p><b>Programming:</b> Javascript, HTML, CSS, Python</p>
@@ -91,13 +100,19 @@
   </div>
   <div>
     <article class="contact" id="contact">
-      <h3>Contact</h3>
+      <h3 id="contact-heading">Contact</h3>
       <p class="contact-info">Feel free to contact me using the information below:</p>
-      <ul>
-        <li>Email: briannatran45@gmail.com</li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/brianna-tran-671039147/">LinkedIn Profile</a></li>
-        <li>GitHub: <a href="https://github.com/briannatran1">GitHub</a></li>
-      </ul>
+      <div class="contact-icons">
+        <a href="https://www.linkedin.com/in/brianna-tran-671039147/" target="_blank" rel="noopener noreferrer">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" alt="LinkedIn Profile">
+        </a>
+        <a href="mailto:briannatran45@gmail.com" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" alt="Email">
+        </a>
+        <a href="https://github.com/briannatran1" target="_blank" rel="noopener noreferrer">
+          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+        </a>
+      </div>
     </article>
   </div>
 </body>
