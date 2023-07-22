@@ -56,7 +56,8 @@ body p {
 }
 
 #resume-heading, #about-heading, #contact-heading {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  font-size: 40px;
 }
 
 #work, #tech, #edu {
@@ -135,6 +136,10 @@ button {
 
 .text-2 {
   font-size: 0.875rem;
+}
+
+.text-6 {
+  font-weight: 400;
 }
 
 .bg-primary {
