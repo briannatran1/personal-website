@@ -164,3 +164,54 @@ button {
   padding: 20px;
   display: inline-block;
 }
+
+@media (max-width: 767px) {
+  /* CSS rules for small screens (up to 767px) */
+  body p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  article {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .jumbotron h1 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* CSS rules for medium screens (768px to 991px) */
+  body p {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  article {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .jumbotron h1 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* CSS rules for large screens (992px and above) */
+  body p {
+    width: 750px;
+    margin: 0 auto;
+  }
+
+  article {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .jumbotron h1 {
+    font-size: 40px;
+  }
+}
