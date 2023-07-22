@@ -19,11 +19,6 @@ body p {
   background-color: #FFF0F5;
 }
 
-img {
-  height: 300px;
-  margin-bottom: 20px;
-}
-
 #jumbotron {
   background-color: #FFF0F5;
   margin-bottom: -75px;
@@ -108,4 +103,18 @@ button {
 
 .contact-icons img:hover {
   transform: scale(1.1);
+}
+
+.img-fluid {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.rounded-pill {
+  border-radius: 50rem;
+}
+
+.d-block {
+  display: block;
 }
