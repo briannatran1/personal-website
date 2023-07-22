@@ -90,10 +90,11 @@ button {
 }
 
 .contact-icons img {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 20%;
   transition: transform 0.2s;
+  margin-bottom: 40px;
 }
 
 .contact-icons img:hover {
@@ -101,7 +102,7 @@ button {
 }
 
 .img-fluid {
-  max-width: 100px;
+  width: 250px;
   height: auto;
   margin-bottom: 20px;
 }
