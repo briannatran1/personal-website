@@ -19,12 +19,6 @@ body p {
   background-color: #FFF0F5;
 }
 
-#jumbotron {
-  background-color: #FFF0F5;
-  margin-bottom: -75px;
-  height: 100%;
-}
-
 .contact-info, #jumbotron {
   text-align: center;
 }
@@ -140,4 +134,32 @@ button {
 
 .text-6 {
   font-weight: 400;
+}
+
+.jumbotron {
+  background-image: url('images/sakura.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+
+.jumbotron h1,
+.jumbotron .lead,
+.jumbotron .info {
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+  padding: 20px;
+  display: inline-block;
 }
