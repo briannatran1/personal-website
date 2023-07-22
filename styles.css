@@ -60,7 +60,7 @@ body p {
   font-size: 40px;
 }
 
-#work, #tech, #edu {
+#tech {
   margin-top: 30px;
   margin-bottom: 15px;
 }
@@ -96,8 +96,8 @@ button {
 }
 
 .contact-icons img {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   border-radius: 20%;
   transition: transform 0.2s;
 }
@@ -140,8 +140,4 @@ button {
 
 .text-6 {
   font-weight: 400;
-}
-
-.bg-primary {
-  background-color: aquamarine !important;
 }
